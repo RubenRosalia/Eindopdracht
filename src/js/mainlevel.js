@@ -59,7 +59,6 @@ export class MainLevel extends Scene {
       this.score = score;
       this.scoreLabel.text = `Score: ${this.score}`;
       if (this.score >= 2) {
-        this.youWonLabel.visible = false;
         console.log("You won!");
       }
     });
